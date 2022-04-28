@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CilekButik.Android", "Cilek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CilekButik.iOS", "CilekButik\CilekButik.iOS\CilekButik.iOS.csproj", "{DD1A0666-EFD0-4D2E-99B3-32428E9A2084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CilekButik", "CilekButik\CilekButik\CilekButik.csproj", "{6AB76596-E038-4913-9A30-5EC07FC117CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CilekButik", "CilekButik\CilekButik\CilekButik.csproj", "{6AB76596-E038-4913-9A30-5EC07FC117CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
