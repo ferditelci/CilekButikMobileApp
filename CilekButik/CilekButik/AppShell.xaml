@@ -23,7 +23,7 @@
                 <!-- <Setter Property="Shell.TabBar" Value="Purple" /> -->
                 <Setter Property="Shell.TabBarForegroundColor" Value="#ed2b3a"/>
                 <Setter Property="Shell.TabBarUnselectedColor" Value="#ed2b3a"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="Black"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -31,13 +31,14 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="Ana Sayfa" Icon="home.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AnaSayfaPage}" />
-        <ShellContent Title="Ara" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:AraPage}" />
-        <ShellContent Title="Ürünler" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:UrunlerPage}" />
-        <ShellContent Title="Sepetim" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:SepetimPage}" />
-        <ShellContent Title="Hesabım" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:HesabimPage}" />
-        <ShellContent Title="Abput" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:AboutPage}" />
+        <ShellContent Title="Ana Sayfa" Icon="icon_home.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AnaSayfaPage}" />
+        <ShellContent Title="Ara" Icon="search.png" ContentTemplate="{DataTemplate local:AraPage}" />
+        <ShellContent Title="Ürünler" Icon="menu.png" ContentTemplate="{DataTemplate local:UrunlerPage}" />
+        <ShellContent Title="Sepetim" Icon="shopping_cart.png" ContentTemplate="{DataTemplate local:SepetimPage}" />
+        <ShellContent Title="Hesabım" Icon="user.png" ContentTemplate="{DataTemplate local:HesabimPage}" />
+        <ShellContent Title="About" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Items" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        
     </TabBar>
 
     <!--
