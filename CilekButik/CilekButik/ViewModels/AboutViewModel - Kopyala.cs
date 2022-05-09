@@ -11,7 +11,7 @@ namespace CilekButik.ViewModels
         public AboutViewModel()
         {
             Title = "Çilek Butik";
-            Title2 = "Ürün Arama";
+            
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 

@@ -8,6 +8,15 @@
   <ItemGroup>
     <Compile Remove="ViewModels\AboutViewModel - Kopyala.cs" />
     <Compile Remove="ViewModels\CilekButikLogoViewModel.cs" />
+    <Compile Remove="Views\AltGiyimPage.xaml.cs" />
+    <Compile Remove="Views\DisGiyimPage.xaml.cs" />
+    <Compile Remove="Views\UstGiyimPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\AltGiyimPage.xaml" />
+    <EmbeddedResource Remove="Views\DisGiyimPage.xaml" />
+    <EmbeddedResource Remove="Views\UstGiyimPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\AltGiyimPage.xaml">
+    <EmbeddedResource Update="Views\AltGiyim.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\AnaSayfaPage.xaml">
@@ -26,7 +35,7 @@
     <EmbeddedResource Update="Views\AraPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\DisGiyimPage.xaml">
+    <EmbeddedResource Update="Views\DisGiyim.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\FlyoutPage1Detail.xaml">
@@ -41,13 +50,16 @@
     <EmbeddedResource Update="Views\HorizontalLayoutPeekAreaPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\SepetimPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\UrunlerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\UstGiyimPage.xaml">
+    <EmbeddedResource Update="Views\UstGiyim.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

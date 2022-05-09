@@ -10,14 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace CilekButik.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UrunlerPage : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public UrunlerPage()
+        public Page1()
         {
             InitializeComponent();
         }
-        
-        
-        
     }
 }

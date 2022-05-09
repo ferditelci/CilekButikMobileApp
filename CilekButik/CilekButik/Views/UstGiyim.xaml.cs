@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace CilekButik.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UstGiyimPage : ContentView
+    public partial class UstGiyim : ContentPage
     {
-        public UstGiyimPage()
+        public UstGiyim()
         {
             InitializeComponent();
         }
 
         private async void UstGiyimlerSayfasiAc(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new UstGiyimPage());
+            await Navigation.PushAsync(new UstGiyim());
         }
     }
 }
