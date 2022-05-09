@@ -17,9 +17,6 @@ namespace CilekButik.Views
             InitializeComponent();
         }
 
-        private async void UstGiyimlerSayfasiAc(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new UstGiyim());
-        }
+        
     }
 }

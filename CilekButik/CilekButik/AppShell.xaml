@@ -31,6 +31,7 @@
     </Shell.Resources>
 
     <TabBar>
+        
         <ShellContent Title="Ana Sayfa" Icon="icon_home.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AnaSayfaPage}" />
         <ShellContent Title="Ara" Icon="search.png" ContentTemplate="{DataTemplate local:AraPage}" />
         <ShellContent Title="Ürünler" Icon="menu.png" ContentTemplate="{DataTemplate local:UrunlerPage}" />
@@ -46,6 +47,7 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
+        
         <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
     </TabBar>
 
