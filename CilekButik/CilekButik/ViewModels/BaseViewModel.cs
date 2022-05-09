@@ -26,6 +26,13 @@ namespace CilekButik.ViewModels
             set { SetProperty(ref title, value); }
         }
 
+        string title2 = string.Empty;
+        public string Title2
+        {
+            get { return title2; }
+            set { SetProperty(ref title2, value); }
+        }
+
         protected bool SetProperty<T>(ref T backingStore, T value,
             [CallerMemberName] string propertyName = "",
             Action onChanged = null)

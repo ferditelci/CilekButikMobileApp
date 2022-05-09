@@ -41,7 +41,43 @@
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
+
+                
+                    <CarouselView ItemsSource="{Binding Vegetables}"
+                          BackgroundColor="Transparent"
+                          PeekAreaInsets="40">
+                        <CarouselView.ItemsLayout>
+                            <LinearItemsLayout ItemSpacing="10"
+                                       Orientation="Horizontal"
+                                       SnapPointsAlignment="Start"
+                                       SnapPointsType="Mandatory">
+
+                            </LinearItemsLayout>
+                        </CarouselView.ItemsLayout>
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Frame CornerRadius="45"
+                                   BackgroundColor="White"
+                                   VerticalOptions="CenterAndExpand">
+                                        <StackLayout>
+                                            <Image Source="{Binding Image}"/>
+                                            <Label Text="{Binding Name}"
+                                          FontSize="Large"
+                                           TextTransform="Uppercase"
+                                           HorizontalOptions="Center"
+                                           />
+                                            <Button Text="Order NOW"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                
+                
             </StackLayout>
+            
         </ScrollView>
     </Grid>
 

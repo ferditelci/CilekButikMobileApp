@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CilekButik.Views.UstGiyimPage"
+             Title="                              Ürünler">
+  <ContentView.Content>
+        <StackLayout Spacing="-1">
+            <Button BackgroundColor="White" Text="  &lt;  Geri                                                                                         " TextColor="red" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45"></Button>
+            <Button BackgroundColor="White" Text="Tüm Üst Giyim Ürünleri                                                          " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" ></Button>
+            <Button BackgroundColor="White" Text="SweatShirt                                                                                 " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" BorderColor="#d9d9d9" BorderWidth="1"></Button>
+            <Button BackgroundColor="White" Text="T-Shirt                                                                                         " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" BorderColor="#d9d9d9" BorderWidth="1"></Button>
+            <Button BackgroundColor="White" Text="Kazak                                                                                          " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" BorderColor="#d9d9d9" BorderWidth="1"></Button>
+            <Button BackgroundColor="White" Text="Gömlek/Bluz                                                                              " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" BorderColor="#d9d9d9" BorderWidth="1"></Button>
+            <Button BackgroundColor="White" Text="Crop                                                                                             " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" BorderColor="#d9d9d9" BorderWidth="1"></Button>
+            <Button BackgroundColor="White" Text="Bodysuit                                                                                      " TextColor="Black" TextTransform="None" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold" HeightRequest="45" BorderColor="#d9d9d9" BorderWidth="1"></Button>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

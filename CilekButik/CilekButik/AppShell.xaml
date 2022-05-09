@@ -36,8 +36,8 @@
         <ShellContent Title="Ürünler" Icon="menu.png" ContentTemplate="{DataTemplate local:UrunlerPage}" />
         <ShellContent Title="Sepetim" Icon="shopping_cart.png" ContentTemplate="{DataTemplate local:SepetimPage}" />
         <ShellContent Title="Hesabım" Icon="user.png" ContentTemplate="{DataTemplate local:HesabimPage}" />
-        <ShellContent Title="About" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Items" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <!--<ShellContent Title="About" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:AboutPage}" />
+        <ShellContent Title="Items" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />-->
         
     </TabBar>
 

@@ -16,5 +16,14 @@ namespace CilekButik.Views
         {
             InitializeComponent();
         }
+        
+        private async void AltGiyimlerSayfasiAc(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AltGiyimPage());
+        }
+        private async void DisGiyimlerSayfasiAc(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DisGiyimPage());
+        }
     }
 }
